@@ -1,0 +1,11 @@
+This is an Android application to demonstrate basic OAuth2 authentication by obtaining tokens from google, using AccountManager.
+
+Basic Overview-
+The application contains 2 activites - chooseAccount and LoggedIn, accompanied by two helper classes loginTask and AuthPreferences.
+LoggedIn is the launcher Activity. This activity will be rendered only when the user has logged in.
+ChooseAccount displays a Dialog to choose the account.
+AuthPreferences contains the Shared Preferences which will be persisitent across all the activities.
+loginTask is the abstract class which contains all the necessary methods. All the activities extend this class.
+
+The server side validation for the tokens from this application is demonstrated by me in this link-
+https://github.com/gnithin/ValidateToken
